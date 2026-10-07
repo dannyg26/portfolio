@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="590" viewBox="0 0 800 590">
+<title>IdentityTrace investigation workflow</title>
+<rect width="800" height="590" rx="18" fill="#f5f7f6"/>
+<text x="400" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="bold" fill="#24364b">IdentityTrace investigation workflow</text>
+<rect x="80" y="78" width="640" height="72" rx="12" fill="white" stroke="#9cb8b8"/>
+<text x="400" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#24364b">Cloud audit telemetry</text>
+<text x="400" y="131" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#515d6b">Entra / GitHub collection scripts &#183; Microsoft 365 API import</text>
+<path d="M400 152 v18 m-6 -6 6 6 6 -6" fill="none" stroke="#437b83" stroke-width="2"/>
+<rect x="80" y="178" width="640" height="72" rx="12" fill="white" stroke="#9cb8b8"/>
+<text x="400" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#24364b">Normalize and store</text>
+<text x="400" y="231" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#515d6b">Common event schema &#183; SQLAlchemy &#183; PostgreSQL</text>
+<path d="M400 252 v18 m-6 -6 6 6 6 -6" fill="none" stroke="#437b83" stroke-width="2"/>
+<rect x="80" y="278" width="640" height="72" rx="12" fill="white" stroke="#9cb8b8"/>
+<text x="400" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#24364b">Detect and correlate</text>
+<text x="400" y="331" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#515d6b">14 atomic rules &#183; identity baselines &#183; 6 temporal rules</text>
+<path d="M400 352 v18 m-6 -6 6 6 6 -6" fill="none" stroke="#437b83" stroke-width="2"/>
+<rect x="80" y="378" width="640" height="72" rx="12" fill="white" stroke="#9cb8b8"/>
+<text x="400" y="406" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#24364b">Investigate the evidence</text>
+<text x="400" y="431" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#515d6b">Incident queues &#183; identity profiles &#183; evidence graphs</text>
+<path d="M400 452 v18 m-6 -6 6 6 6 -6" fill="none" stroke="#437b83" stroke-width="2"/>
+<rect x="80" y="478" width="640" height="72" rx="12" fill="white" stroke="#9cb8b8"/>
+<text x="400" y="506" text-anchor="middle" font-family="Arial,sans-serif" font-size="21" font-weight="bold" fill="#24364b">Analyst review and export</text>
+<text x="400" y="531" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#515d6b">Notes &#183; assessments &#183; status tracking &#183; Word reports</text>
+</svg>

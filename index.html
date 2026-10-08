@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    // Open the base URL at the introduction instead of restoring an old scroll position.
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.addEventListener('pageshow', () => {
+      if (!location.hash) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    });
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Danny Galvis: cloud identity investigations, detection engineering, SOC projects, and a confirmed django CMS security disclosure. Computer Science senior at Kean University." />
